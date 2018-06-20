@@ -19,6 +19,12 @@ int calcAngel(double h, double m){
 }
 
 int main(){
+    double h, m;
+    std::cout <<"Enter the hour(i.e: 12:00 will be 12): ";
+    cin >> h;
+
+    std::cout <<"Enter the minute(s)(i.e: 12:00 will be 00): ";
+    cin >> m;
 
     printf("%d", calcAngel(12, 00));
     return 0;
